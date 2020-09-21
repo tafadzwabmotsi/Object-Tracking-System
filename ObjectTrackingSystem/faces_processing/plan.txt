@@ -1,0 +1,19 @@
+
+NOTE: FACE ENCODINGS SHOULD BE KEPT IN A DATABASE FOR USUAL COMPARISON UNLESS IF THE SYSTEM IS BEING INITIALIZED
+      OR IF THE IMAGE IS CAPTURED FROM THE CAMERA FOR DETECTION
+
+- Detect faces in a given image that has a person
+    - Classify faces
+        - Tell known faces in the image
+        - Tell unknown faces in an image
+        - Label faces
+    - On the unknown faces
+        - Label them as unknown
+        - Store information about the unknown faces detected
+            - The face itself
+            - Time of detection
+            - Place of detection
+        - Send email to the user
+            - Email with the face
+            - Time of detection
+            - Place of detection

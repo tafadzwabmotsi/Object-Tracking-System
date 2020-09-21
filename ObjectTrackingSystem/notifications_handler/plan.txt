@@ -1,0 +1,7 @@
+- Emailing
+    - Need to send email based on:
+        - unknown face(s) were detected
+    - Email has:
+        - subject
+        - body
+        - image of faces attached

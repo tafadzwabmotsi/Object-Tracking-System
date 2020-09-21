@@ -1,0 +1,32 @@
+- Track human in a video
+    1. Detect Motion
+         - If motion detected:
+                - Capture image immediately
+                - Find objects in the image
+                - for object in objects found:
+                    - If object is a person:
+                        - Begin tracking the person's activities
+                    - Else
+                        - Just update the database about the objects observed
+         - Else
+            - Pass
+
+    2. Track Human
+         - Find the position of the person in the video
+         - Find the activities in the video
+            - Walking
+                - to
+                - from
+            - running
+            - cycling
+            - driving
+            - opening door
+            - entering house
+            - picking object
+
+- Resources
+    - Uno
+         - https://www.aliexpress.com/item/32839291632.html?spm=a2g0o.detail.1000060.1.49d24758U0x5Jv&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.146401.0&scm_id=1007.13339.146401.0&scm-url=1007.13339.146401.0&pvid=1efa4694-2696-4cef-90ac-509ae80dd5aa
+    - Camera
+         - https://www.aliexpress.com/item/32804153178.html?spm=a2g0o.productlist.0.0.62385817wpm8gX&algo_pvid=ac67242c-15d1-424b-9a25-66f735ef4eb0&algo_expid=ac67242c-15d1-424b-9a25-66f735ef4eb0-26&btsid=0ab6f82315843579279022705e2f06&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
+
